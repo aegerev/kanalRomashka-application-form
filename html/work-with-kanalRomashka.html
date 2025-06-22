@@ -2,148 +2,182 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
     <script src="../js/form-functionality.js" defer></script>
-	<title>Work with NET</title>
+    <title>Work With Kanal Romashka</title>
 </head>
 
 <body>
     <nav>
         <ul>
             <li><a href="../index.html">HOME</a></li>
-            <li><a href="./work-with-net.html">WORK WITH NET</a></li>
-            <li><a href="https://github.com/aegerev/net-signup-form">VIEW GITHUB</a></li>
+            <li><a href="./work-with-kanalRomashka.html">WORK WITH THE KANAL ROMASHKA CREW</a></li>
+            <li><a href="https://github.com/aegerev/kanalRomashka-application-form">VIEW GITHUB</a></li>
         </ul>
     </nav>
-    
-	<div class="container">
-		<h1>Work with NET!</h1>
-        <p>NET is funded by the U.S. Department of Education AND the Corporation for Public Broadcasting... but we can't really function without your support.  
-            <br/> <br/> 
-           Now, in 2024, we're building the #1 Educational Kids Channel from the ground up. We need you on our crew. Without you... NET is nothing. So the question is: Won't You Be Our Neighbor?
-            <br/> <br/> 
-           Please fill out this form. We'll be in touch soon.
-           <br/> <br/> 
-           Thank you for your support.
+
+    <div class="container">
+        <h1>Work with Kanal Romashka</h1>
+        <p>Kanal Romashka is funded by the U.S. Department of Education AND the Corporation for Public Broadcasting, but about 95% of the channel is funded through your support.
+            <br/> <br/>
+            We're building the #1 Educational Kids Channel from the ground up. We need you on our crew. Without you, Kanal Romashka will be closed forever. We want to be open. We want to help kids succeed. So the question is: Won't You Be Our Neighbor?
+            <br/> <br/>
+            Please fill out this form. We'll be in touch soon.
+            <br/> <br/>
+            Thank you for your support.
         </p>
-        </div>
+    </div>
 
-        <br/> <br/>
+    <br/> <br/>
 
-        <div class="container"> 
+    <div class="container">
+        <form id="id_full_form" method="post">
 
-            <div id="id_form">
+            <div id="id_form_preliminary">
+                <h4>Preliminary Information</h4>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                <br/> <br/>
 
-                <form id="id_full_form" method="post">
-                    <h4> Preliminary Information</h4>
-                    <!-- Username Input -->
-                    <label for="username">Name:</label>
-                    <input type="text" id="username" name="username" required>
-              <br/> <br/>
-                    <!-- Email Input -->
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                <br/> <br/>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br/> <br/>
+
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" required>
+                <br/> <br/>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+                <br/> <br/>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+                <br/> <br/>
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+                <br/> <br/>
+
+                <label for="zip">ZIP Code:</label>
+                <input type="text" id="zip" name="zip" required>
+                <br/> <br/>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+            </div>
+
+            <br/> <br/>
+
+            <div id="id_form_resume_cover_letter">
+                <h4>Resume/Cover Letter</h4>
+                <h5>Resume</h5>
+                <input type="file" name="resume" required>
+                <button type="button">Upload</button> <br/>
+
+                <h5>Cover Letter</h5>
+                <input type="file" name="cover-letter">
+                <button type="button">Upload</button> </div>
+
+            <br/> <br/>
+
+            <div id="id_form_eeoc">
+                <h2>Equal Employment Opportunity Self-Identification</h2>
+                <h3>"‘Inclusion’ was superfluous to [Mister Rogers'] vocabulary, because inclusion was embedded in the lived world of his television neighborhood."</h3>
+                <p>Kanal Romashka welcomes everyone. It is an equal opportunity employer. All employment decisions shall be based on merit, qualifications, and competence. Employment practices shall not be influenced or affected by a person’s race, color, genetics, religion, sex, national origin, age, sexual orientation, gender identity or expression, marital status, disability, military status, or any other characteristic protected by applicable law. This policy governs all aspects of employment, including, without limitation, recruiting, hiring, compensation, benefits, promotion, assignment, and dismissal. It is also our policy to provide an environment free of unlawful harassment of any kind, including, without limitation, sexual, racial, age-related, disability-related, or ethnic background-related.
                     <br/> <br/>
+                    According to federal regulations, New Atlantica Studios, the parent company of Kanal Romashka, is required to report information as requested below. The information you provide is strictly confidential and will be maintained separately from your personnel file. You may inform us of your status related to the following data or your change in status at this time and/or any time in the future.
+                </p>
 
-                    <!-- Password Input -->
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required>
-        </div>
- 
-          </div>
-
-          <br/> <br/>
-
-          <div class="container">
-            <h2>Equal Employment Opportunity Self-Identification</h2>
-            <p>NET is an equal opportunity employer and government contractor. It has been and shall continue to be both the official policy and the commitment of the Company, including all its divisions to further equal employment opportunities in hiring or employment. Further the Company continues a policy of nondiscrimination against individuals on the basis of race, color, creed, religion, sex, pregnancy-related conditions, reproductive health decisions, childbirth or related medical conditions, sexual orientation, gender identity or expression, transgender status, age, national origin or ancestry, marital status, familial status, citizenship, physical and mental disability, prior arrest or conviction record, genetic characteristics/genetic information, predisposition or carrier status, domestic violence victim status, military status or service, veteran status, or any other characteristics protected under federal, state or local law.
-                  
-            <br/> <br/> 
-            According to federal regulations, NET is required to report information as requested below. The information you
-            provide is strictly confidential and will be maintained separately from your personnel file. You may inform us of your status related to the following data or your change in status at this time and/or any time in the future. 
-
-            </p>
-           
-
-            <div id="id_form">
-
-                <form id="id_full_form" method="post">
-                    <h4>EEOC Information</h4>
-
+                <h4>EEOC Information</h4>
                 <h5>Gender:</h5>
                 <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Male</label>
                 <input type="radio" id="female" name="gender" value="female">
                 <label for="female">Female</label>
-              <br/> <br/>
+                <br/> <br/>
 
                 <h5>Race/Ethnicity:</h5>
                 <div>
-                    <input type="checkbox" id="coding" name="interest" value="coding">
-                    <label for="coding">Hispanic/Latino</label>
+                    <input type="checkbox" id="hispanic" name="race_ethnicity" value="Hispanic/Latino">
+                    <label for="hispanic">Hispanic/Latino</label>
                 </div>
 
                 <div>
-                    <input type="checkbox" id="reading" name="interest" value="reading">
-                    <label for="reading">White(Not Hispanic/Latino)</label>
+                    <input type="checkbox" id="white" name="race_ethnicity" value="White (Not Hispanic/Latino)">
+                    <label for="white">White (Not Hispanic/Latino)</label>
                 </div>
 
                 <div>
-                    <input type="checkbox" id="reading" name="interest" value="reading">
-                    <label for="reading">Back or African-American(Not Hispanic/Latino)</label>
+                    <input type="checkbox" id="black" name="race_ethnicity" value="Black or African-American (Not Hispanic/Latino)">
+                    <label for="black">Black or African-American (Not Hispanic/Latino)</label>
                 </div>
 
                 <div>
-                    <input type="checkbox" id="reading" name="interest" value="reading">
-                    <label for="reading">Asian(Not Hispanic/Latino)</label>
+                    <input type="checkbox" id="asian" name="race_ethnicity" value="Asian (Not Hispanic/Latino)">
+                    <label for="asian">Asian (Not Hispanic/Latino)</label>
                 </div>
 
                 <div>
-                    <input type="checkbox" id="reading" name="interest" value="reading">
-                    <label for="reading">Native Hawaiian/Other Pacific Islander(Not Hispanic/Latino)</label>
+                    <input type="checkbox" id="native_hawaiian" name="race_ethnicity" value="Native Hawaiian/Other Pacific Islander (Not Hispanic/Latino)">
+                    <label for="native_hawaiian">Native Hawaiian/Other Pacific Islander (Not Hispanic/Latino)</label>
                 </div>
 
                 <div>
-                    <input type="checkbox" id="reading" name="interest" value="reading">
-                    <label for="reading">American Indian/Alaska Native(Not Hispanic/Latino)</label>
+                    <input type="checkbox" id="american_indian" name="race_ethnicity" value="American Indian/Alaska Native (Not Hispanic/Latino)">
+                    <label for="american_indian">American Indian/Alaska Native (Not Hispanic/Latino)</label>
                 </div>
 
                 <div>
-                    <input type="checkbox" id="reading" name="interest" value="reading">
-                    <label for="reading">Two or More Races(Not Hispanic/Latino)</label>
+                    <input type="checkbox" id="two_or_more_races" name="race_ethnicity" value="Two or More Races (Not Hispanic/Latino)">
+                    <label for="two_or_more_races">Two or More Races (Not Hispanic/Latino)</label>
                 </div>
 
                 <div>
-                    <input type="checkbox" id="reading" name="interest" value="reading">
-                    <label for="reading">I do not wish to disclose this information.</label>
+                    <input type="checkbox" id="decline_race" name="race_ethnicity" value="I do not wish to disclose this information.">
+                    <label for="decline_race">I do not wish to disclose this information.</label>
                 </div>
 
                 <br/>
                 <p> Thank you for your attention to this matter. </p>
 
                 <p>Refusal to complete this form will not subject you to any adverse treatment. This form will be used for governmental reporting purposes only. If we have not received your completed form, the Company will interpret that to mean you have declined self-identification and will be required to obtain the necessary information from visual identification and/ or other available information.</p>
+            </div>
+
+            <br/>
+
+            <div class="container">
+                <h2>Required Question</h2>
+                <p> How will you contribute to the mission of Kanal Romashka?</p>
+                <label for="bio"></label>
+                <textarea id="bio" name="bio" rows="10" placeholder="Tell us about yourself"></textarea>
+
+                <button type="submit">Submit Application</button> </div>
+        </form>
         </div>
-          </div>
- 
-        <br/> <br/>
-        <div class="container">
-            <h2>Required Question</h2>
-            <p> In 10 sentences or more, please tell us a little bit about yourself and why you want to work for NET.</p>
-            <label for="bio">Bio:</label>
-                <textarea id="bio" name="bio" rows="4" placeholder="Tell us about yourself"></textarea>
 
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+    <br/>
+    <div class="container">
+        <h2>Non-Discrimination Statement:</h2>
+        <p> Kanal Romashka believes in people. We believe that everyone has the right to use the talents that they have been given to bring a positive change to the world. The only way to do that is by working together.
+            <br/> <br/>
+            The motto of Kanal Romashka is "A World Without Violence". As such, Kanal Romashka strictly prohibits unlawful discrimination on the basis of race, color, genetics, religion, sex, national origin, age, sexual orientation, gender identity or expression, marital status, disability, or military status in any of our operations.</p>
+    </div>
+    <br/> <br/>
 
-        <div id="id_display_deets">Hey there!</div>
-        <br/>
-          </body>
-          </html>
+    <div id="id_display_deets">Hey there!</div>
+    <br/>
+</body>
 
-          <footer>
-            <p>&copy; 2024 Alexander Egerev. All rights reserved. </p>
-        
-            </footer>
+<footer>
+    <p>&copy; 2025 Alexander Egerev. All rights reserved. </p>
+    <p>&copy; 2025 New Atlantica Studios. All rights reserved. </p>
+</footer>
+
+</html>
