@@ -2,13 +2,13 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    background-color: #0000FF;
+    background-color: #70DBDB;
 }
 
 
 /* Navigation Styles */
 nav {
-    background-color: #A62A2A;
+    background-color: #EAEAAE;
     text-align: center;
     position: sticky;
     padding: 25px 0;
@@ -35,12 +35,12 @@ nav a {
 }
 
 nav a:hover {
-    color: #FFD800;
+    color: #99CC32;
 }
 
 header {
     text-align: center;
-    color:#00FFFF;
+    color:#FF7F00;
     padding: 100px 0px;
 }
 
@@ -110,7 +110,7 @@ footer {
     width: 100%;
     text-align: center;
     background-color: #2A52BE;
-    color: #FFD800;  
+    color: #FFFFFF;  
     padding: 20px; 
     font-size: 1em;
 }
